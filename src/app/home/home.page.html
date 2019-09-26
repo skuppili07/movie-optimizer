@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+     Movie Optimizer
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <h4>{{myInput}}</h4>
+  <ion-searchbar
+  [(ngModel)]="myInput"
+  (ionInput)="onInput($event)"
+  [showCancelButton]="'true'"
+  (ionCancel)="onCancel($event)">
+</ion-searchbar>
+  </div>
+   <ion-list>
+      <ion-item (click)="buttonClick()"> 
+        <ion-label>{{movies}}</ion-label>
+      </ion-item>
+    </ion-list>
+  <div *ngIf="shouldShow">
+    <app-movie-detail [movieDetail]="movie"></app-movie-detail>
+  </div>
+</ion-content>

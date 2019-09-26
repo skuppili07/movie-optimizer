@@ -1,0 +1,58 @@
+[
+    {
+        "oid": "1234512345",
+        "name": "Aagadu",
+        "type": "Movie",
+        "language": "Telugu",
+        "releasedate": "2014-01-01",
+        "rating": "5",
+        "genre": ["Action", "Crime", "Drama", "Thriller"],
+        "img": "aagadu-11231214121.png",
+        "trailer": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132",
+        "videolinks": [
+            {"source":"Youtube", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"},
+            {"source":"Amazon", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"},
+            {"source":"Netflix", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"},
+            {"source":"Einthusan", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"}
+        ],
+        "desc": "An encounter specialist is transferred as CI to a village which is ruled by a local gangster",
+        "synopsis": "An encounter specialist is transferred as CI to a village which is ruled by a local gangster",
+        "duration": "174",
+        "tags": ["Aagadu","Mahesh"],
+        "cast": [
+            {"type": "hero", "name": "Maheshbabu", "cid": "100001"},
+            {"type": "heroine", "name": "Samantha", "cid": "100002"},
+            {"type": "director", "name": "Sreenu Vaitla", "cid": "100003"},
+            {"type": "producer", "name": "Dil Raju", "cid": "100004"},
+            {"type": "music", "name": "Chakri", "cid": "100005"}
+        ]
+    },
+    {
+        "oid": "1234512346",
+        "name": "Aagadu 2",
+        "type": "Movie",
+        "language": "Telugu",
+        "releasedate": "2014-01-01",
+        "rating": "5",
+        "genre": ["Action", "Crime", "Drama", "Thriller"],
+        "img": "aagadu2-11231214121.png",
+        "trailer": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132",
+        "videolinks": [
+            {"source":"Youtube", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"},
+            {"source":"Amazon", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"},
+            {"source":"Netflix", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"},
+            {"source":"Einthusan", "url": "https:\/\/www.youtube.com\/watch?v=CJhtn98Ilnk?t=132", "price": "0", "verified":"2019-09-01"}
+        ],
+        "desc": "An encounter specialist is transferred as CI to a village which is ruled by a local gangster",
+        "synopsis": "An encounter specialist is transferred as CI to a village which is ruled by a local gangster",
+        "duration": "174",
+        "tags": ["Aagadu2","Mahesh"],
+        "cast": [
+            {"type": "hero", "name": "Maheshbabu", "cid": "100001"},
+            {"type": "heroine", "name": "Samantha", "cid": "100002"},
+            {"type": "director", "name": "Sreenu Vaitla", "cid": "100003"},
+            {"type": "producer", "name": "Dil Raju", "cid": "100004"},
+            {"type": "music", "name": "Chakri", "cid": "100005"}
+        ]
+    }
+]
