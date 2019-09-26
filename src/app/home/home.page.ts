@@ -18,7 +18,7 @@ export class HomePage {
     this.myInput = input.target.value;
     if (this.myInput.length > 3) {
       this.movieService.getMovies().subscribe((values) => {
-        for(var i = 0; i < values.size(); i++) {
+        for(var i = 0; i < values.length; i++) {
         if(values[i].name.toLowerCase().startsWith(this.myInput.toLowerCase())) {
           this.movies = values[i].name;
           this.movie = values[i].trailer;
