@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MoviesService } from './movies.service';
+import { movie, videoLinks } from '../common/movie.model';
 
 @Component({
   selector: 'app-home',
@@ -8,20 +9,23 @@ import { MoviesService } from './movies.service';
 })
 export class HomePage {
   public myInput: string;
-  public movies: string;
-  public movie: any;
+  public movieName: string;
+  public movies: movie[];
   public shouldShow: boolean;
 
   constructor(private movieService: MoviesService) {}
 
   onInput(input): void {
     this.myInput = input.target.value;
+    this.movies = [];
+    this.movieName = '';
     if (this.myInput.length > 3) {
-      this.movieService.getMovies().subscribe((values) => {
+      this.movieService.getMovies().subscribe((values: movie[]) => {
         for(var i = 0; i < values.length; i++) {
         if(values[i].name.toLowerCase().startsWith(this.myInput.toLowerCase())) {
-          this.movies = values[i].name;
-          this.movie = values[i].trailer;
+          this.movieName = values[i].name;
+          this.shouldShow = true;
+          this.movies.push(values[i]);
         }
       }
       });

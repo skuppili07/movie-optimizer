@@ -54,5 +54,32 @@
             {"type": "producer", "name": "Dil Raju", "cid": "100004"},
             {"type": "music", "name": "Chakri", "cid": "100005"}
         ]
+    },
+    {
+        "oid": "123456",
+        "name": "Baahubali: The Beginning (Telugu)",
+        "type": "Movie",
+        "language": "Telugu",
+        "releasedate": "2015-07-10",
+        "rating": "5",
+        "genre": ["Action", "Thriller"],
+        "img": "aagadu2-11231214121.png",
+        "trailer": "https:\/\/www.youtube.com\/watch?v=HNnt00swZ5Q",
+        "videolinks": [
+            {"source":"Amazon", "url": "https:\/\/www.amazon.com\/gp\/video\/detail\/0S3PHZV6YR3VNS7F9Z9TTIQ37C\/ref=imdbref_tt_wbr_aiv?tag=imdbtag_tt_wbr_aiv-20", "price": "3.99", "verified":"2019-10-10"},
+            {"source":"Einthusan", "url": "https:\/\/einthusan.ca\/movie\/watch/9036\/?lang=telugu", "price": "0", "verified":"2019-10-10"}
+        ],
+        "desc": "Baahubali: The Beginning is a 2015 Indian epic action film directed by S. S. Rajamouli. The film was produced by Shobu Yarlagadda and Prasad Devineni and was shot in both Telugu and Tamil. This film was also dubbed into Malayalam and Hindi. The film stars Prabhas, Rana Daggubati, Anushka Shetty, and Tamannaah in the lead roles, with Ramya Krishna, Sathyaraj, and Nassar in supporting roles.",
+        "synopsis": "he film follows Sivudu, an adventurous young man who helps his love, a rebellious warrior intending to rescue the former queen of Mahishmati. In the process, he learns of his true identity as the heir to the throne of Mahishmati, the son of Amarendra Baahubali, whose tale is narrated to him by Kattappa, a loyal warrior. When asked about Amarendra's whereabouts, Kattappa reveals that he was the one who killed him. The reason behind this is explained in the follow-up Baahubali 2: The Conclusion.",
+        "duration": "158",
+        "tags": ["Baahubali","Prabhas"],
+        "cast": [
+            {"type": "hero", "name": "Prabhas", "cid": "100010"},
+            {"type": "heroine", "name": "Anushka Shetty", "cid": "100011"},
+            {"type": "heroine", "name": "Tamannaah Bhatt", "cid": "100015"},
+            {"type": "director", "name": "S. S. Rajamouli", "cid": "100012"},
+            {"type": "producer", "name": "Shobu Yarlagadda", "cid": "100013"},
+            {"type": "music", "name": "M. M. Keeravani", "cid": "100014"}
+        ]
     }
 ]

@@ -1,3 +1,32 @@
-<p>
-  <a href="{{movieDetail}}">movieDetail</a>
-</p>
+<ion-grid *ngFor="let movieDetail of movieDetails">
+  <ion-row>
+      <ion-col size="2">
+          <div class="images">
+           <img src="{{movieDetail.imgUrl}}"/>
+          </div>
+        </ion-col>
+    <ion-col size="6">
+      <div>
+          {{movieDetail.name}}
+      </div>
+      <br/>
+      <div>
+          Description: {{movieDetail.desc}}
+      </div>
+      <br/>
+      <div>
+          Synopsis: {{movieDetail.synopsis}}
+      </div>
+    </ion-col>
+    <ion-col size="2">
+      <div>
+       Rating: {{movieDetail.rating}}
+      </div>
+    </ion-col>
+    <ion-col size="2">
+      <div *ngFor= "let video of movieDetail.videolinks; let i = index">
+        <a target="_blank" href="{{video.url}}">{{video.source}}</a>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>

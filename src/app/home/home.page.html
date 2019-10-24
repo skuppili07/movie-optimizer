@@ -8,7 +8,6 @@
 
 <ion-content>
   <div class="ion-padding">
-    <h4>{{myInput}}</h4>
   <ion-searchbar
   [(ngModel)]="myInput"
   (ionInput)="onInput($event)"
@@ -16,12 +15,12 @@
   (ionCancel)="onCancel($event)">
 </ion-searchbar>
   </div>
-   <ion-list>
-      <ion-item (click)="buttonClick()"> 
-        <ion-label>{{movies}}</ion-label>
-      </ion-item>
+   <ion-list> 
+   <!-- <ion-item (click)="buttonClick()"> 
+        <ion-label>{{movieName}}</ion-label>
+      </ion-item> -->
     </ion-list>
   <div *ngIf="shouldShow">
-    <app-movie-detail [movieDetail]="movie"></app-movie-detail>
+    <app-movie-detail [movieDetails]="movies"></app-movie-detail>
   </div>
 </ion-content>
